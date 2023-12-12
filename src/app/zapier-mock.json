@@ -1,0 +1,62 @@
+{
+  "id": "0bd54eb4-36fa-4b00-812c-402a770c62de",
+  "chatId": "656de7bb1490f0000720bfe4",
+  "botId": "65661a2340ad0b0007861cd2",
+  "date": "2023-12-04T14:52:43.086Z",
+  "score": 1,
+  "failures": 0,
+  "finished": false,
+  "attributes": {},
+  "diagram": [
+    "ffb2fd69-c6ea-4f0d-8a54-62ce9d019dba",
+    "34648dfc-ff34-45c5-b8a6-c4a695506f6a",
+    "78f26d0b-0da9-47b9-b001-42bbe2db65ac"
+  ],
+  "responses": [
+    {
+      "id": "cb80c100-bc02-42cd-9270-04ba3b92a052",
+      "type": "INPUT_WELCOME"
+    },
+    {
+      "id": "ffb2fd69-c6ea-4f0d-8a54-62ce9d019dba",
+      "type": "START_POINT"
+    },
+    {
+      "id": "34648dfc-ff34-45c5-b8a6-c4a695506f6a",
+      "type": "BOT_RESPONSE",
+      "responses": [
+        {
+          "delay": 1000,
+          "type": "text",
+          "message": "Hi! I'm Support Bot 🤖"
+        }
+      ]
+    },
+    {
+      "id": "78f26d0b-0da9-47b9-b001-42bbe2db65ac",
+      "type": "BOT_RESPONSE",
+      "responses": [
+        {
+          "delay": 1000,
+          "type": "quickReplies",
+          "title": "What are the device that you are having issue with?",
+          "buttons": [
+            {
+              "title": "iPad",
+              "type": "postback",
+              "value": "iPad",
+              "id": "25676803-742f-4869-ab2e-1a1abecaad71-0bd54eb4"
+            },
+            {
+              "title": "S1E",
+              "type": "postback",
+              "value": "S1E",
+              "id": "b34c90a5-de53-46eb-b0cf-1d3bbab0b34b-0bd54eb4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
